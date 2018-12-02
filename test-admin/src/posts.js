@@ -11,7 +11,7 @@ const PostFilter = (props) => (
 );
 
 export const PostList = props => (
-	<List {...props} filters={<PostFilter />}>
+	<List {...props} perPage={100} filters={<PostFilter />}>
 		<Responsive
 			small={
 				<SimpleList

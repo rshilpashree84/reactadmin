@@ -5,7 +5,7 @@ import  MyUrlField from './MyUrlField';
 
 
 export const UserList = props => (
-	<List {...props}>
+	<List {...props}  perPage={100}>
 		<Datagrid rowClick="edit">
 			<TextField source="id" />
 			<TextField source="name" />
